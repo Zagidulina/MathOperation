@@ -2,13 +2,26 @@ public class Method {
 
     public static void main(String[] args) {
 
-        System.out.println(sum(600,100));
+        int sixHundred = 600;
+        int oneHundred = 100;
 
-        System.out.println(minus(700,100,200));
+        System.out.println(sum(sixHundred, oneHundred));
 
-        System.out.println(multiply(11,5));
-        
-        System.out.println(division(25,5));
+        int sevenHundred = 700;
+        int fifty = 50;
+        int twoHundred = 200;
+
+        System.out.println(minus(sevenHundred,fifty,twoHundred));
+
+        int eleven = 11;
+        int five = 5;
+
+        System.out.println(multiply(eleven,five));
+
+        int fortyTwo = 42;
+        int seven = 7;
+
+        System.out.println(division(fortyTwo,seven));
 
     }
     public static int sum( int option1, int option2){

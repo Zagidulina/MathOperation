@@ -11,12 +11,12 @@ public class Method {
         int fifty = 50;
         int twoHundred = 200;
 
-        System.out.println(minus(sevenHundred,fifty,twoHundred));
+        System.out.println(minus(sevenHundred, fifty, twoHundred));
 
         int eleven = 11;
         int five = 5;
 
-        System.out.println(multiply(eleven,five));
+        System.out.println(multiply(eleven, five));
 
         int fortyTwo = 42;
         int seven = 7;
